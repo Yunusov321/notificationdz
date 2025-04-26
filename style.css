@@ -1,0 +1,35 @@
+.notify-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.notify-btn.success {
+    background-color: #4CAF50;
+}
+
+.notify-btn.success:hover {
+    background-color: #45a049;
+}
+
+.notify-btn.fail {
+    background-color: #f44336;
+}
+
+.notify-btn.fail:hover {
+    background-color: #e53935;
+}
+
+.notify-btn.warning {
+    background-color: #ff9800;
+}
+
+.notify-btn.warning:hover {
+    background-color: #fb8c00;
+}
